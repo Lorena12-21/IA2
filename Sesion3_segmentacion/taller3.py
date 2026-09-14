@@ -29,7 +29,7 @@ print("TALLER DE LABORATORIO 2: UMBRALIZACIÓN ADAPTATIVA Y OTSU")
 print("=" * 60)
 
 # 1. Crear imagen sintética con gradiente de iluminación
- np.random.seed(42)
+np.random.seed(42)
 imagen_gradiente = np.linspace(0, 255, 256).reshape(16, 16).astype(np.uint8)
 
 # 2. Umbralización Global Tradicional
